@@ -14,7 +14,7 @@ class Thing(models.Model):
         }
     )
 
-    description = models.TextField(
+    description = models.CharField(
         blank=True,
         max_length=120,
     )
